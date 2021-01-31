@@ -5,10 +5,10 @@ function main() {
 }
 
 function calculateSales() {
-    Price=parseFloat(txPrice.value)
-    TaxRate=parseFloat(txTaxRate.value)/100
-    Tax=Price*TaxRate
-    Total=Price+Tax
+    Price   = parseFloat(txPrice.value)
+    TaxRate = parseFloat(txTaxRate.value)/100
+    Tax     = Price*TaxRate
+    Total   = Price+Tax
     spTotal.innerHTML=Total.toFixed(2)
 }
 
